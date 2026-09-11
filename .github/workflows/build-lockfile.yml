@@ -24,6 +24,13 @@ jobs:
       - name: Audit locked production graph
         working-directory: bootstrap
         run: npm audit --omit=dev --audit-level=high
+      - name: Publish lockfile artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site03-trusted-package-lock
+          path: bootstrap/package-lock.json
+          if-no-files-found: error
+          retention-days: 30
       - name: Commit lockfile if changed
         run: |
           git config user.name 'github-actions[bot]'
