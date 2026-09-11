@@ -1,0 +1,17 @@
+{
+  "name": "gpt-auto-wave-trader-site03-coinmargin",
+  "version": "2.6.30",
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "express": "5.1.0",
+    "ws": "8.21.0",
+    "lightweight-charts": "5.0.8"
+  },
+  "devDependencies": {
+    "electron": "44.2.0",
+    "electron-builder": "26.0.12"
+  }
+}
