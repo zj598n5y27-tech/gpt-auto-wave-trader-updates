@@ -1,13 +1,13 @@
 {
-  "version": "2.6.30",
-  "releaseCounter": 2006030,
+  "version": "2.6.31",
+  "releaseCounter": 2006031,
   "channel": "stable",
   "packageType": "source_zip",
-  "url": "https://github.com/zj598n5y27-tech/gpt-auto-wave-trader-updates/releases/download/v2.6.30/gpt_auto_wave_site03_v2.6.30.zip",
-  "sha256": "6919e87d63648440289441ac9caa03dd9f59844fa36253b08fcc08441a2be66e",
+  "url": "https://github.com/zj598n5y27-tech/gpt-auto-wave-trader-updates/releases/download/v2.6.31/gpt_auto_wave_site03_v2.6.31.zip",
+  "sha256": "58a7a1f243ab8dfb968fe17fee19bcd33c10025b77341cdefaeed9716a94dce0",
   "dependencyFingerprint": "a80eeeb18996d91a4c7acac5da5e3eae30e469d04d9318917d5406ef58879d34",
-  "publishedAt": "2026-09-12T07:16:14.545Z",
+  "publishedAt": "2026-09-12T07:47:22.896Z",
   "mandatory": false,
-  "notes": "Site 03 v1.6.30 Trusted Update Bootstrap: trusted lockfile, npm ci verification, rotated Ed25519 trust root, fail-closed updater. Real-order submission remains disabled.",
-  "signature": "zTU/sXnM5DFTu3JFDObcGH58DdGtZHnHQbNdNBgvUo4jVa1UG0jZMGhtiekLqSXMMODoROQLq9dNyNDBdAiiCQ=="
+  "notes": "Site 03 v1.6.31 Updater End-to-End Test Release: signed update install test from 2.6.30. Trading strategy unchanged; real-order submission remains disabled.",
+  "signature": "oEprA5MKae3pS+9+69j6IRk1c3KDtXDJrB2IaHKtrtHxHHHE8bEdjVjmexou6lirdv15JDnTZb7VXdsi3twpDA=="
 }
