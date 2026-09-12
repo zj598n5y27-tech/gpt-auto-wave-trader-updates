@@ -1,0 +1,13 @@
+{
+  "version": "2.6.30",
+  "releaseCounter": 2006030,
+  "channel": "stable",
+  "packageType": "source_zip",
+  "url": "https://github.com/zj598n5y27-tech/gpt-auto-wave-trader-updates/releases/download/v2.6.30/gpt_auto_wave_site03_v2.6.30.zip",
+  "sha256": "6919e87d63648440289441ac9caa03dd9f59844fa36253b08fcc08441a2be66e",
+  "dependencyFingerprint": "a80eeeb18996d91a4c7acac5da5e3eae30e469d04d9318917d5406ef58879d34",
+  "publishedAt": "2026-09-12T07:16:14.545Z",
+  "mandatory": false,
+  "notes": "Site 03 v1.6.30 Trusted Update Bootstrap: trusted lockfile, npm ci verification, rotated Ed25519 trust root, fail-closed updater. Real-order submission remains disabled.",
+  "signature": "zTU/sXnM5DFTu3JFDObcGH58DdGtZHnHQbNdNBgvUo4jVa1UG0jZMGhtiekLqSXMMODoROQLq9dNyNDBdAiiCQ=="
+}
