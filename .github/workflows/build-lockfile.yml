@@ -21,6 +21,9 @@ jobs:
       - name: Generate exact lockfile
         working-directory: bootstrap
         run: npm install --package-lock-only --ignore-scripts --no-fund
+      - name: Verify reproducible install from lockfile
+        working-directory: bootstrap
+        run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Audit locked production graph
         working-directory: bootstrap
         run: npm audit --omit=dev --audit-level=high
